@@ -284,7 +284,7 @@ Please provide a helpful response."""
         return self.web_search_fallback(question, model)
 
 # Initialize the bot with your OpenRouter API key
-OPENROUTER_API_KEY = "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"  # Replace with your actual OpenRouter API key
+OPENROUTER_API_KEY = "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"  # Replace with your actual OpenRouter API key
 bot = LegendBot(OPENROUTER_API_KEY)
 
 @app.route('/')
